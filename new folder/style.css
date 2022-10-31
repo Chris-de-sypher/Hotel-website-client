@@ -1,0 +1,122 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;1,900&family=Oswald:wght@200;300;600&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,300;1,500&family=Space+Grotesk:wght@600;700&display=swap");
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    -webkit-user-drag:none;
+    -webkit-user-add:none;
+list-style:none;
+font-family: "poppins", sans-serif;
+
+}
+li,a,button {
+    color:#fff;
+    font-size:1.9vh;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: transparent;
+    color: #FFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 3%;
+    border-bottom-right-radius: 3vh;
+    border-bottom-left-radius: 3vh;
+    /* border-bottom: 1px solid #659ebc; */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+}
+.company_logo {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 2.8vh;
+    font-weight: bolder;
+    color: #000;
+    }
+    span {
+    margin-right: auto;
+        /* display: flex; */
+    }
+.container {
+background: url("./hotel7.jpeg");
+background-size:cover;
+height: 100vh;
+width:100%;
+}
+.active {
+    font-weight:bolder;
+    text-decoration:underline;
+}
+#company_logo_img {
+    width:10%;
+    height:auto;
+    margin-right: auto;
+
+}
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  .content {
+    padding:30vh 3%;
+    color:#fff;
+  }
+  .content h4 {
+    font-size: 40px;
+    font-weight:300;
+  }
+  .content h2 {
+    font-size:60px;
+  }
+  .content p{
+    font-size:15px;
+    width:43%;
+    font-weight:400;
+  }
+  .content .buttons button {
+    padding: 2vh;
+    color:#fff;
+    border-radius: 5px;
+    border:none;
+    width:20vh;
+    background: #B5916D;
+
+  }
+  .content .buttons {
+    padding:5vh 0vh;
+  }
+  #border_none {
+    background:none;
+    border:2px solid #B5916D;
+  }
+  .list_rooms {
+    height: 90vh;
+    background:#fff;
+  }
+  .list_rooms h4 {
+    text-align:center;
+  }
+  .grid_box{
+    display:grid;
+
+  }
+  .box_img img {
+    width:100%;
+    height:auto;
+  }
+  .box {
+    display:flex;
+    padding:4vh;
+  }
+  .box_text h3{
+    font-size:30px;
+  }
+  .box_text p{
+w    width:50%;
+  }
